@@ -1,0 +1,10 @@
+<meta>
+	<info name="In-Game attachment editor" author="JohnFlower" version="1.1" type="misc" />
+	<script src="attach.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+	<script src="attach_cl.lua" type="client"/>
+	<script src="matrix.lua" type="client"/>
+	<file src="shader.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+	<export function="loadAttachment" type="server"/>
+</meta>

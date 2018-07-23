@@ -1,0 +1,6 @@
+<meta>
+	<info name="Components Testing Script" author="Shaio" description="Manipulating Vehicle Components" type="script" version="0.0.1"/>
+	<script src="server.lua" type="client"/>
+	<script src="client.lua" type="client"/>
+	<file src="elegy.dff" type="client"/>
+</meta>

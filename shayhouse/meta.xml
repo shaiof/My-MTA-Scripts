@@ -1,0 +1,4 @@
+<meta>
+	<info name="Shay's House" author="Shay, CounterLoxoz, Optimus" type="script" version="0.0.1"/>
+	<script src="garage.lua" type="server"/>
+</meta>

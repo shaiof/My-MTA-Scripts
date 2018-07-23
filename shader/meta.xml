@@ -1,0 +1,7 @@
+<meta>
+	<info name="Vehicle to Object Color Shader" author="Shaio Fencski & Loki" type="script"/>
+	<script src="client.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+	<file src="shader.fx"/>
+	<file src="mta-helper.fx"/>
+</meta>

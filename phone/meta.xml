@@ -1,0 +1,5 @@
+<meta>
+	<info name="Phone" author="Shaio" type="script" version="0.0.1"/>
+	<script src="client.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+</meta>

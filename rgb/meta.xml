@@ -1,0 +1,5 @@
+<meta>
+	<info name="RGB" author="Shaio" version="0.0.1" type="script"/>
+	<script src="client.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+</meta>

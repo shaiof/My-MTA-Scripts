@@ -1,0 +1,5 @@
+<meta>
+	<info name="House System" author="Shaio Fencski" version="0.0.1" type="script"/>
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+</meta>

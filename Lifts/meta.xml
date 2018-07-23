@@ -1,0 +1,10 @@
+<meta>
+	<info author="Shaio" type="script" name="Vehicle Lifts" version="0.2"/>
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+	<file src="file/hoist.col"/>
+	<file src="file/hoist.dff"/>
+	<file src="file/ramp.col"/>
+	<file src="file/ramp.dff"/>
+	<file src="file/vehiclelift.txd"/>
+</meta>

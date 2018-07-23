@@ -1,0 +1,16 @@
+[
+	{
+		"message": {
+			"id": "302938752928710656",
+			"text": "loki imma use a table to store which groups can do certain commands"
+		},
+		"author": {
+			"id": "228305462938959872",
+			"name": "Shay",
+			"roles": [
+				"@everyone",
+				"Owner"
+			]
+		}
+	}
+]

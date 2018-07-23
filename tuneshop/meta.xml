@@ -1,0 +1,12 @@
+<meta>
+	<info name="Tuneshop" description="Tuneshop script" author="Shaio" type="script" version="0.0.1"/>
+	<script src="server.lua" type="server"/>
+	<script src="offsets.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+	<file src="wheels.json"/>
+	<file src="/mods/picador.dff" type="client"/>
+	<file src="/mods/burrito.dff" type="client"/>
+	<file src="/mods/sandking.dff" type="client"/>
+	<file src="/mods/supergt.dff" type="client"/>
+	<file src="/mods/turismo.dff" type="client"/>
+</meta>

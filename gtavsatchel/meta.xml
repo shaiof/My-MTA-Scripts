@@ -1,0 +1,8 @@
+<meta>
+	<info name="GTA V Sticky Bomb" author="Shaio Fencski" version="0.0.1" type="script"/>
+	<min_mta_version client="1.5.2" server="1.5.2" />
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+	<file src="mods/satchel.dff"/>
+	<file src="mods/satchel.txd"/>
+</meta>

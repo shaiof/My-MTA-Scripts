@@ -1,0 +1,6 @@
+<meta>
+	<info name="Flowersounds v2" author="Shaio Fencski" version="0.0.1" type="script"/>
+	<min_mta_version client="1.4" server="1.4" />
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+</meta>

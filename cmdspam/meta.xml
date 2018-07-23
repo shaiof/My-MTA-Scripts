@@ -1,0 +1,4 @@
+<meta>
+	<info name="Command Spam Prevention" author="Shaio Fencski" type="script" version="0.0.1"/>
+	<script src="server.lua" type="server"/>
+</meta>

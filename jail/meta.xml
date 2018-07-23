@@ -1,0 +1,4 @@
+<meta>
+	<info name="Jail System" author="Shaio Fencski" version="0.0.1" type="script"/>
+	<script src="server.lua" type="server"/>
+</meta>
