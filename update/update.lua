@@ -33,7 +33,7 @@ function update()
 		end)
 	end
 	
-	print(getResourceName(getThisResource())..' has been updated from github successfully')
+	print('Resource: '..getResourceName(getThisResource())..' has been updated from github successfully')
 end
 update()
 
