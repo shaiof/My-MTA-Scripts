@@ -1,1 +1,1 @@
-local message = "hello"
+print('test')
