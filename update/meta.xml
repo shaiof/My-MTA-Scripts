@@ -3,4 +3,6 @@
 	<script src="client.lua" type="client"/>
 	
 	<script src="update.lua" type="server"/>
+	
+	<oop>true</oop>
 </meta>
