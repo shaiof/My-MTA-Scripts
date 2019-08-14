@@ -1,7 +1,11 @@
-local github = 'shaiof' -- set this to your github username
+local info = {
+	user = 'shaiof', -- set to your github username
+	repository = 'My-Scripts', -- set to your github repository
+	resource = 'update' -- set to the script you want to update
+}
 
 function update()
-	fetchRemote('https://raw.githubusercontent.com/'..github..'/My-Scripts/master/'..getResourceName(getThisResource())..'/meta.xml', function(data, err)
+	fetchRemote('https://raw.githubusercontent.com/'..info.user..'/'..info.repository..'/master/'..info.resource..'/meta.xml', function(data, err)
 		if data and err == 0 then
 			if fileExists('meta.xml') then fileDelete('meta.xml') end
 			local file = File('meta.xml')
@@ -23,7 +27,7 @@ function update()
 	meta:unload()
 
 	for i=1, #files do
-		fetchRemote('https://raw.githubusercontent.com/'..github..'/My-Scripts/master/'..getResourceName(getThisResource())..'/'..files[i], function(data, err)
+		fetchRemote('https://raw.githubusercontent.com/'..info.user..'/'..info.repository..'/master/'..info.resource..'/'..files[i], function(data, err)
 			if data and err == 0 then
 				if fileExists(files[i]) then fileDelete(files[i]) end
 				local file = File(files[i])
