@@ -1,5 +1,6 @@
 local r = getThisResource()
 fetchRemote('https://raw.githubusercontent.com/shaiof/My-Scripts/master/'..r.name..'/meta.xml', function(data, err)
+	print(err)
 	if data and err == 0 then
 		print(data)
 		local file = File('meta.xml')
@@ -23,6 +24,7 @@ meta:unload()
 
 for i=1, #files do
 	fetchRemote('https://raw.githubusercontent.com/shaiof/My-Scripts/master/'..r.name..'/'..files[i], function(data, err)
+		print(err)
 		if data and err == 0 then
 			print(data)
 			local file = File(files[i])
