@@ -1,2 +1,1 @@
-print('shid')
-print('shid')
+local message = "hello"
