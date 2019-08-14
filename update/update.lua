@@ -1,5 +1,5 @@
 
-fetchRemote('https://raw.githubusercontent.com/shaiof/My-Scripts/master/'..getResourceName(getThisResource())..'/meta.xml', function(data, err)
+fetchRemote('https://github.com/shaiof/My-Scripts/blob/master/'..getResourceName(getThisResource())..'/meta.xml', function(data, err)
 	if data and err == 0 then
 		if fileExists('meta.xml') then fileDelete('meta.xml') end
 		local file = File('meta.xml')
@@ -21,7 +21,7 @@ end
 meta:unload()
 
 for i=1, #files do
-	fetchRemote('https://raw.githubusercontent.com/shaiof/My-Scripts/master/'..getResourceName(getThisResource())..'/'..files[i], function(data, err)
+	fetchRemote('https://github.com/shaiof/My-Scripts/blob/master/'..getResourceName(getThisResource())..'/'..files[i], function(data, err)
 		if data and err == 0 then
 			if fileExists(files[i]) then fileDelete(files[i]) end
 			local file = File(files[i])
