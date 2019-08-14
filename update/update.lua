@@ -27,7 +27,4 @@ for i=1, #files do
 			file:close()
 		end
 	end)
-end			file:close()
-		end
-	end)
 end
